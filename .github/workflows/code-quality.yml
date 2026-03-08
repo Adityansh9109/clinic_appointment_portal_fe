@@ -28,5 +28,5 @@ jobs:
          run: npx eslint src
 
        - name: Run security scan
-         run: npm audit
+         run:  npm audit fix --force
        
