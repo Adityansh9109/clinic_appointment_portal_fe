@@ -25,7 +25,7 @@ jobs:
          run: npm install
 
        - name: Run ESLint
-         run: npm run lint App.js
+         run: npx eslint src
 
        - name: Run security scan
          run: npm audit
